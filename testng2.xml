@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression suit">
+	<test thread-count="5" name="LoginTest">
+		<parameter name="driverValue" value="firefox" />
+		<parameter name="url" value="https://www.flipkart.com/" />
+		<classes>
+			<class name="testNG_basics.SampleTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+testNG_basics\LaunchBrowserTest.class
+testNG_basics\SampleTest.class
+testNG_basics\ListnersParallel.class
+assertions\Assert_1.class
+testNG_basics\ParametersTest.class
+testNG_basics\Priority_Groups_DependsOnMethodsTest.class
