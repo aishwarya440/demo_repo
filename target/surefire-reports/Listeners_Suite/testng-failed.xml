@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Listeners_Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listenerspackage.Listeners_Class"/>
+  </listeners>
+  <test thread-count="5" name="Listeners_Test(failed)" verbose="0">
+    <classes>
+      <class name="testNG_basics.LaunchBrowserTest">
+        <methods>
+          <include name="beforesuitLevel"/>
+          <include name="afterClassLevel"/>
+          <include name="getElementEnabled"/>
+          <include name="classLevel"/>
+          <include name="afterSuitLevel"/>
+          <include name="afterTestLevel"/>
+          <include name="beforetestLevel"/>
+          <include name="tearDownafterMethodLevel"/>
+          <include name="launchBrowserTest"/>
+        </methods>
+      </class> <!-- testNG_basics.LaunchBrowserTest -->
+    </classes>
+  </test> <!-- Listeners_Test(failed) -->
+</suite> <!-- Failed suite [Listeners_Suite] -->
