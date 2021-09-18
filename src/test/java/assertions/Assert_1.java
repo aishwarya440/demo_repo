@@ -112,7 +112,7 @@ public class Assert_1 {
 		
 		System.err.println("newly added by user 2");
 		System.err.println("newly added by user 2");
-		System.err.println("newly added by user 3");
+		System.err.println("newly added by user 2");
 	}
 
 }
