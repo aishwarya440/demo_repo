@@ -38,6 +38,11 @@ public class Assert_1 {
 		String s[] = { "Aishwarya", "Soni" };
 		String ss[] = { "Aishwarya", "Soni" };
 		Assert.assertEquals(s, ss);
+		
+		
+		System.err.println("newly added by user 3");
+		System.err.println("newly added by user 3");
+		System.err.println("newly added by user 3");
 
 	}
 
