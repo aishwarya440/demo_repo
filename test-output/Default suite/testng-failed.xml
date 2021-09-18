@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_basics.ListnersParallel">
+      <class name="assertions.Assert_1">
         <methods>
-          <include name="m3"/>
-          <include name="m2"/>
+          <include name="abc"/>
           <include name="m4"/>
-          <include name="m1"/>
-          <include name="dataMethod1"/>
-          <include name="launchBrowserTest"/>
-          <include name="beforemethod"/>
+          <include name="m3"/>
         </methods>
-      </class> <!-- testNG_basics.ListnersParallel -->
+      </class> <!-- assertions.Assert_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

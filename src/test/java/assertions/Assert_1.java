@@ -18,6 +18,10 @@ public class Assert_1 {
 		String s = "Aishwarya Soni";
 		System.out.println(s);
 		Assert.assertEquals(s, "Aishu");
+		
+		System.err.println("new 1");
+		System.err.println("new 2");
+		System.err.println("new 3"); 
 	}
 
 	@Test
