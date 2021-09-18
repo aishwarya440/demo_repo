@@ -1,8 +1,10 @@
 package assertions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.testng.Assert;
@@ -35,7 +37,7 @@ public class Assert_1 {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void m1() {
 
 		List<Integer> list1 = new ArrayList<Integer>();
@@ -84,6 +86,23 @@ public class Assert_1 {
 		System.out.println(set2);
 
 		Assert.assertEquals(set1, set2);
+	}
+	@Test()
+	public void m4() {
+
+		Map<Integer,Integer> set1 = new HashMap<Integer,Integer>();
+		set1.put(10,20);
+		set1.put(20,30);
+		set1.put(30,40);
+		System.out.println(set1.get(10));
+		set1.put(50,60);
+		System.out.println(set1);
+		
+
+		Assert.assertTrue(false, "Assert failed");
+		
+		
+		System.err.println("Push code to git repo master branch");
 	}
 
 }
