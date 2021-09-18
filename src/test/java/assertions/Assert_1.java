@@ -19,9 +19,9 @@ public class Assert_1 {
 		System.out.println(s);
 		Assert.assertEquals(s, "Aishu");
 		
-		System.err.println("new 1");
-		System.err.println("new 2");
-		System.err.println("new 3"); 
+		System.out.println("new 1");
+		System.out.println("new 2");
+		System.out.println("new 3"); 
 	}
 
 	@Test
@@ -110,9 +110,11 @@ public class Assert_1 {
 
 		Assert.assertTrue(false, "Assert failed");
 		
-		System.err.println("newly added by user 2");
-		System.err.println("newly added by user 2");
-		System.err.println("newly added by user 3");
+		System.out.println("newly added by user 2");
+		System.out.println("newly added by user 2");
+		System.out.println("newly added by user 3");
+		
+		System.out.println("latest update");
 	}
 
 }
